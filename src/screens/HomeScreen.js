@@ -5,9 +5,9 @@ import DataValue from '../components/DataValue';
 const HomeScreen = () => {
     return (
         <View>
-            <Text>TDS Value:</Text>
+            <Text>TDS Value</Text>
             <DataValue title="TDS" />
-            <Text>Temperature Value:</Text>
+            <Text>Temperature Value</Text>
             <DataValue title="Temperature" />
         </View>
     );
